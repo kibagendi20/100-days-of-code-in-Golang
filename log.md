@@ -6,7 +6,7 @@
 
 **Thoughts:** I lost psyche that I has when starting until now I still feel I overwhelmed since I did not accomplish the task that I intended to do. 
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Variables,Constants definition](https://twitter.com/swe_kibagendj/status/1641534376851677189?t=LPhmTTVmiJcwP9H6b3dGaA&s=19)
 
 <!-- ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
