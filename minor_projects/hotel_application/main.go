@@ -17,13 +17,13 @@ func main() {
 	var occupancyLevel string
 	roomsAvailable = rand.Intn(134)
 	roomsOccupied := totalRooms - roomsAvailable
-	occupancyRate := roomsOccupied / totalRooms
-	if occupancyRate < 30 {
-		occupancyLevel = "Low"
-	} else if occupancyRate < 60 {
+	occupancyRate := roomsOccupied / totalRooms * 100
+	if occupancyRate > 60 {
+		occupancyLevel = "High"
+	} else if occupancyRate > 30 {
 		occupancyLevel = "Medium"
 	} else {
-		occupancyLevel = "High"
+		occupancyLevel = "Low"
 	}
 
 	fmt.Print("Hotel: ", hotel)
