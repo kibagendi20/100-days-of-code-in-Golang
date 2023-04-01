@@ -8,6 +8,14 @@
 
 **Link to work:** [Variables,Constants definition](https://twitter.com/swe_kibagendj/status/1641534376851677189?t=LPhmTTVmiJcwP9H6b3dGaA&s=19)
 
+### Day 1: March 31, 2023 
+
+**Today's Progress**: Went through control statements and developed a simple cli hotel management program
+
+**Thoughts:** I still feel I overwhelmed since I did not accomplish the task that I intended to do.
+
+**Link to work:** [Hotel management system](https://twitter.com/swe_kibagendj/status/1641745318503956482?t=0eR3SIJgsFDITOU7AmQDtQ&s=19)
+
 <!-- ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
 
