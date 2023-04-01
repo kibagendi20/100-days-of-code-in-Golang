@@ -15,9 +15,9 @@ func main() {
 	var roomsAvailable int
 	var roomLabeling int = 110
 	var occupancyLevel string
-	roomsAvailable = rand.Intn(134)
-	roomsOccupied := totalRooms - roomsAvailable
-	occupancyRate := roomsOccupied / totalRooms * 100
+	roomsOccupied := rand.Intn(134)
+	roomsAvailable = totalRooms - roomsOccupied
+	occupancyRate := (float64(roomsOccupied) / float64(totalRooms)) * 100
 	if occupancyRate > 60 {
 		occupancyLevel = "High"
 	} else if occupancyRate > 30 {
@@ -28,7 +28,8 @@ func main() {
 
 	fmt.Print("Hotel: ", hotel)
 	fmt.Println("      Occupancy level: ", occupancyLevel)
-	fmt.Println("                             Occupancy rate: ", occupancyRate, "%")
+	fmt.Printf("                                Occupancy rate: %0.2f %%\n", occupancyRate)
+	//fmt.Println("                             Occupancy rate: ", occupancyRate, "%")
 	fmt.Println("Number of rooms: ", totalRooms)
 	fmt.Println("Rooms available: ", roomsAvailable)
 
@@ -39,7 +40,7 @@ func main() {
 	if roomsAvailable != 0 {
 		fmt.Println("Rooms:")
 		for roomsAvailable != 0 {
-			noPeople := rand.Intn(10) + 1
+			noPeople := rand.Intn(6) + 1
 			nightsAvailable := rand.Intn(10) + 1
 			if nightsAvailable == 1 {
 				fmt.Printf("- %d : %d people / %d night \n", roomLabeling, noPeople, nightsAvailable)
